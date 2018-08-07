@@ -1,0 +1,23 @@
+.photo-row {
+    padding:0.2em 0;
+    display:flex;
+}
+
+.image-container {
+    cursor:pointer;
+    padding:0 0.2em;
+    flex-grow:1;
+}
+
+.image-container:first-child {
+    padding-left:0;
+}
+
+.image-container:last-child {
+    padding-right:0;
+}
+
+.image {
+    width:100%;
+    height:100%;
+}

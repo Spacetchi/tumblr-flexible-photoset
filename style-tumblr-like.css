@@ -1,11 +1,11 @@
 .photo-row {
-    padding:0.1em 0;
+    padding:0.2em 0;
     display:flex;
 }
 
 .image-container {
     cursor:pointer;
-    padding:0 0.1em;
+    padding:0 0.2em;
 }
 
 .image-container:first-child {
