@@ -2,6 +2,14 @@
     padding:0.2em 0;
     display:flex;
 }
+ 
+.photo-row:first-child {
+	padding-top:0;
+}
+
+.photo-row:last-child {
+	padding-bottom:0;
+}
 
 .image-container {
     cursor:pointer;

@@ -3,6 +3,14 @@
     display:flex;
 }
 
+.photo-row:first-child {
+	padding-top:0;
+}
+
+.photo-row:last-child {
+	padding-bottom:0;
+}
+
 .image-container {
     cursor:pointer;
     padding:0 0.2em;
@@ -21,4 +29,5 @@
     width:100%;
     height:100%;
 	display:block;
+	object-fit:cover; /* technically not needed, but helps when browsers glitch */
 }
